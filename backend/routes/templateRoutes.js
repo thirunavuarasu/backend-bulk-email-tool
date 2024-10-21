@@ -9,3 +9,4 @@ router.get('/', authMiddleware, getTemplates);
 router.delete('/:id', authMiddleware, deleteTemplate);
 
 export default router;
+
